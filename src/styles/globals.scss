@@ -1,0 +1,94 @@
+// @import "./varaible";
+$primary: #70b765 !default;
+$secondary: #038c33;
+$success: #038c33;
+// $secondary: #003412;
+$info: #add9bd;
+$warning: #8fbf26;
+// $light: #70b765;
+// $primary: #1f6036;
+.sub-head {
+  color: #70b765;
+  color: #eabe0f;
+  font-weight: 900;
+}
+// h1 {
+//   font-size: 2.12rem;
+// }
+.container-i {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  // height: 27.3rem;
+  background: #eabe0f;
+  margin: 100px auto 0;
+  word-break: break-all;
+  border: 1px solid #70b765;
+  // color: white;
+}
+
+.bloc-tabs1 {
+  display: flex;
+}
+.tabs1 {
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+.tabs1:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs1 {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: #70b765;
+}
+
+button {
+  border: none;
+}
+.contentt-tabs1 {
+  flex-grow: 1;
+}
+.contentt {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.contentt h2 {
+  padding: 0px 0 5px 0px;
+}
+.contentt hr {
+  width: 30%;
+  height: 4.25px;
+  background: #70b765;
+  margin-bottom: 5px;
+}
+.contentt p {
+  width: 100%;
+  height: 100%;
+}
+.active-contentt {
+  display: block;
+}
