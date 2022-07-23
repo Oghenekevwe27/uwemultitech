@@ -1,27 +1,29 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
-import Image from "next/image";
+// import Image from "next/image";
 import { Fragment } from "react";
-import Script from "next/script";
-import Headercomp from "../components/Headercomp";
+// import Script from "next/script";
+// import Headercomp from "../components/Headercomp";
 
-import styles from "../styles/Home.module.css";
+// import styles from "../styles/Home.module.css";
 import Carousel from "components/Carousel";
-import CssHeader from "components/CssHeader";
-import Header from "components/Header";
+// import CssHeader from "components/CssHeader";
+// import Header from "components/Header";
 import Accordion from "components/Accordion";
 import Testimonials from "components/Testimonials";
-import Footer from "components/Footer";
+import Link from "next/link";
+import Script from "next/script";
+// import Footer from "components/Footer";
 // import styled from "styled-components";
 
 export default function Home() {
   return (
     <Fragment>
-     {/*    <Script
+      <Script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossOrigin="anonymous"
-      ></Script> */}
+      ></Script>
       <div>
         <Head>
           <title>Create Next App</title>
@@ -81,13 +83,14 @@ export default function Home() {
                         We help develop company websites to be more professional
                         and attractive
                       </p>
-                      <a
-                        href="#"
-                        className="btn btn-primary"
-                        style={{ backgroundColor: "#F3F4F6" }}
-                      >
-                        <i className="fas fa-arrow-right icon2 text-primary"></i>
-                      </a>
+                      <Link href="/businessname">
+                        <a
+                          className="btn btn-primary nav-link"
+                          style={{ backgroundColor: "#F3F4F6" }}
+                        >
+                          <i className="fas fa-arrow-right icon2 text-primary"></i>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -177,13 +180,14 @@ export default function Home() {
                           We help develop company websites to be more
                           professional
                         </p>
-                        <a
-                          href="/businessname"
-                          className="btn btn-primary nav-link"
-                          style={{ backgroundColor: "#F3F4F6" }}
-                        >
-                          <i className="fas fa-arrow-right icon2 text-primary"></i>
-                        </a>
+                        <Link href="/businessname">
+                          <a
+                            className="btn btn-primary nav-link"
+                            style={{ backgroundColor: "#F3F4F6" }}
+                          >
+                            <i className="fas fa-arrow-right icon2 text-primary"></i>
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -215,7 +219,7 @@ export default function Home() {
                             50<sup>+</sup>
                           </h1>
                           <p className="text-center mt-3">
-                            We have more than customers
+                            customers we have satisfied
                           </p>
                         </div>
                       </div>

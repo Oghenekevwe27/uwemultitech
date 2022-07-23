@@ -1,11 +1,13 @@
 import Slate from "components/tabs/Slates";
-import Head from "next/head";
+// import Head from "next/head";
 import React, { Fragment } from "react";
 import "../styles/business.module.scss";
 import Link from "next/link";
 import Testimonials from "components/Testimonials";
+import Slider from "components/Slider";
+import Pricing from "components/Pricing";
 
-const businessname = () => {
+const Businessname = () => {
   return (
     <Fragment>
       <div className="business">
@@ -18,8 +20,9 @@ const businessname = () => {
         </div>
         <div className="container">
           <div className="heading text-center">
-            <p className="sub-head"> some samples</p>
+            <p className="sub-head mt-5"> some samples</p>
             <h2 className="text-center">Some completed tasks</h2>
+            <Slider />
           </div>
         </div>
         <div className="container">
@@ -36,6 +39,9 @@ const businessname = () => {
             <p className="sub-head"> Pricing</p>
             <h2 className="text-center">our friendly prices</h2>
           </div>
+          <div className="row ">
+            <Pricing />
+          </div>
           <div className="container text-center">
             <Link href="">
               <a>special packages</a>
@@ -50,4 +56,4 @@ const businessname = () => {
   );
 };
 
-export default businessname;
+export default Businessname;

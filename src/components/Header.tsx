@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
 
@@ -13,8 +14,8 @@ const Header = () => {
         />
         <ul className="d-flex justify-content-center align-items-center pt-3">
           <li>
-            <Link href="/" >
-              <a >Home</a>
+            <Link href="/">
+              <a>Home</a>
             </Link>
           </li>
           <li>
@@ -28,7 +29,7 @@ const Header = () => {
             </Link>
           </li>
         </ul>
-        <button className="btn btn nav-btn">Contact Us</button>
+        <button className="btn btn nav-btn text-light">Contact Us</button>
       </nav>
     </header>
   );

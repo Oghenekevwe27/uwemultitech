@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 const Testimonials = () => {
@@ -7,11 +8,8 @@ const Testimonials = () => {
         <div className="row justify-content-center mt-5">
           {" "}
           {test.map((card) => (
-            <div className="col-sm-4">
-              <div
-                className="card d-flex flex-column align-items-center justify-content-center mb-5  py-4 test-card px-3"
-                key={card.id}
-              >
+            <div className="col-sm-4" key={card.id}>
+              <div className="card d-flex flex-column align-items-center justify-content-center mb-5  py-4 test-card px-3">
                 <div className="elipse">
                   <img src={card.image} alt="" />
                 </div>

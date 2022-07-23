@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { useState } from "react";
-import Link from "next/link";
+// import React, { useState } from "react";
+// import Link from "next/link";
 // import styled from "styled-components";
 
 const CssHeader = () => {
@@ -8,12 +8,12 @@ const CssHeader = () => {
 
   return (
     <>
-      <header className="head ">
-        {/* <Wrapper
+      {/* <header className="head "> */}
+      {/* <Wrapper
           
           sx={{ mb: 0, backgroundColor: "#e9d4d4" }}
         > */}
-        <div className="mobile-nav ">
+      {/* <div className="mobile-nav ">
           <div>
             <div
               className="th-fs "
@@ -94,9 +94,9 @@ const CssHeader = () => {
               </Link>
             </li>
           </ul>
-        </nav>
-        {/* </Wrapper> */}
-      </header>
+        </nav> */}
+      {/* </Wrapper> */}
+      {/* </header> */}
     </>
   );
 };

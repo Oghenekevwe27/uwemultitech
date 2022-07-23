@@ -44,6 +44,21 @@ function Slate() {
             toggleState === 1 ? "contentt  active-contentt" : "contentt"
           }
         >
+          <p>Also known as ventures / enterprise</p>
+          <p>
+            According to CAC a Business Name means the name and style under
+            which a business is carried on.
+          </p>
+          <p>
+            A Business Name may be a Sole Proprietorship or a Partnership. It is
+            a Sole Proprietorship if it is carried on by an Individual or a
+            Corporate Body solely. It is a Partnership if it is carried on by
+            two or more Individuals or Corporate Bodies or a combination of
+            Individuals and Corporate Bodies. A Business Name does not enjoy
+            legal personality. It is not separate from the proprietor or
+            partners for the purpose of liability. The liability of the
+            proprietor or partners in a Business Name is not limited.
+          </p>
           {/* <hr /> */}
         </div>
 
@@ -52,6 +67,15 @@ function Slate() {
             toggleState === 2 ? "contentt  active-contentt" : "contentt"
           }
         >
+          <p>
+            A Company is a business arrangement which enjoys legal personality.
+            It is a corporate body and separate from its members (owners). The
+            liabilities of members (owners) of a Company may be limited by
+            shares or guarantee or may be unlimited. A Company may be public or
+            private. The name of a Company must end with the word “Limited” or
+            “Limited by Guarantee” or “Unlimited” or their abbreviations (“Ltd
+            or PLC” or “Unltd” or “Ltd/Gte”)
+          </p>
           {/* <hr /> */}
         </div>
 
@@ -63,12 +87,14 @@ function Slate() {
           <h2>Content 3</h2>
           {/* <hr /> */}
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sed
-            nostrum rerum laudantium totam unde adipisci incidunt modi alias!
-            Accusamus in quia odit aspernatur provident et ad vel distinctio
-            recusandae totam quidem repudiandae omnis veritatis nostrum
-            laboriosam architecto optio rem, dignissimos voluptatum beatae
-            aperiam voluptatem atque. Beatae rerum dolores sunt.
+            An Incorporated Trustees is the registered trustees of a
+            Not-for-Profit Association. The objects of the Association must be
+            religious, educational, literary, scientific, social, developmental,
+            cultural, sporting or charitable. The Trustees are the legal
+            representatives of the Association and can acquire property, sue and
+            be sued in the name of the Association. The Trustees are subject to
+            the directions of the Association and its Governing Council (if
+            any).
           </p>
         </div>
 

@@ -1,3 +1,4 @@
+/* eslint-disable no-constant-condition */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
@@ -37,7 +38,7 @@ const Carousel = () => {
               <div className=" home  d-flex align-items-center justify-content-center">
                 <div className="container d-flex align-items-center justify-content-between  ">
                   <div className="row align-items-center px-3">
-                    <h1 className=" text-light text-left col-md-6 animate__animated animate__bounceInDown pe-5 pb-5">
+                    <h1 className=" text-light text-left col-md-6 animate__animated animate__bounceInDown pe-5 pb-5 mt-5">
                       We are a creative brand <br /> specialize in{" "}
                       <span className="h1" style={{ color: " #EABE0F" }}>
                         securing
@@ -72,7 +73,7 @@ const Carousel = () => {
               <div className=" home  d-flex align-items-center justify-content-center">
                 <div className="container d-flex align-items-center justify-content-between  ">
                   <div className="row align-items-center px-3">
-                    <h1 className=" text-light text-left col-md-6 animate__animated animate__bounceInDown pe-5 pb-5">
+                    <h1 className=" text-light text-left col-md-6 animate__animated animate__bounceInDown pe-5 pb-5  mt-5">
                       We take your business to the{" "}
                       <span className="h1" style={{ color: " #EABE0F" }}>
                         globe
@@ -106,7 +107,7 @@ const Carousel = () => {
                 <div className="container d-flex align-items-center justify-content-between  ">
                   <div className="row align-items-center px-3">
                     <h1
-                      className=" text-left col-md-6 animate__animated animate__bounceInDown pe-5 text-light pb-5"
+                      className=" text-left col-md-6 animate__animated animate__bounceInDown pe-5 text-light pb-5  mt-5"
                       // style={{ fontSize: "3.5rem" }}
                     >
                       {/* Lets help you build a <br /> business that last */}

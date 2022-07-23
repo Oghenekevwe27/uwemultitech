@@ -21,7 +21,7 @@ $warning: #8fbf26;
   position: relative;
   width: 100%;
   // height: 27.3rem;
-  background: #eabe0f;
+  background: #70b765;
   margin: 100px auto 0;
   word-break: break-all;
   border: 1px solid #70b765;
@@ -41,6 +41,7 @@ $warning: #8fbf26;
   box-sizing: content-box;
   position: relative;
   outline: none;
+  color: white;
 }
 .tabs1:not(:last-child) {
   border-right: 1px solid rgba(0, 0, 0, 0.274);
@@ -49,6 +50,7 @@ $warning: #8fbf26;
 .active-tabs1 {
   background: white;
   border-bottom: 1px solid transparent;
+  color: #038c33;
 }
 
 .active-tabs1::before {
@@ -60,7 +62,7 @@ $warning: #8fbf26;
   transform: translateX(-50%);
   width: calc(100% + 2px);
   height: 5px;
-  background: #70b765;
+  background: #eabe0f;
 }
 
 button {
@@ -91,4 +93,9 @@ button {
 }
 .active-contentt {
   display: block;
+}
+.price {
+  box-shadow: -10px 30px 70px rgba(219, 222, 225, 0.4);
+  border-radius: 20px;
+  background-color: #70b765;
 }
